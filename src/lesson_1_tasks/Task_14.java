@@ -19,6 +19,7 @@ public class Task_14 {
 
         int number = Integer.parseInt(reader.readLine());
 
+
         reader.close();
 
         int numOfHundreds = number/100;
