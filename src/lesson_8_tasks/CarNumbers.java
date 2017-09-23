@@ -48,10 +48,7 @@ public class CarNumbers {
 
     public boolean searchNumberInArray(String number) {
         ArrayList arrayCarNumbers = this.initializeArrayOfCarNumbers();
-        if (arrayCarNumbers.contains(number)) {
-            return true;
-        }
-        return false;
+        return arrayCarNumbers.contains(number);
     }
 
     public CarNumbers() {
@@ -68,6 +65,6 @@ public class CarNumbers {
         if (isContains) {
             System.out.println("Номер содержится в списке!");
         }
-        System.out.println("Номер не содержится в списке!");
+        else System.out.println("Номер не содержится в списке!");
     }
 }

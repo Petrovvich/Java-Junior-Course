@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<books topic="programming">
+<books>
+    <book id="bk101">
+        <author>Совершенный код</author>
+        <title>Стив Макконнелл</title>
+        <genre>Computer</genre>
+        <price>44.95</price>
+    </book>
+    <book id="bk102">
+        <author>Роберт К. Мартин</author>
+        <title>Чистый код. Создание, анализ и рефакторинг</title>
+        <genre>Computer</genre>
+        <price>5.95</price>
+    </book>
+    <book id="bk103">
+        <author>Эндрю Хант, Дэвид Томас</author>
+        <title>Программист-прагматик. Путь от подмастерья к мастеру</title>
+        <genre>Computer</genre>
+        <price>5.95</price>
+    </book>
+</books>
+</books>
